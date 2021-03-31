@@ -54,6 +54,7 @@ namespace Lab4Alexey {
             // Call the recursive helper function
             // to print DFS traversal
             DFSUtil(v, visited);
+            Console.WriteLine();
         }
         
         public void BFS_method(int s) {
@@ -93,6 +94,8 @@ namespace Lab4Alexey {
                     }
                 }
             }
+            
+            Console.WriteLine();
         }
     }
 }
