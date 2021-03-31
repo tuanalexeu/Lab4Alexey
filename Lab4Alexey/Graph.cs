@@ -86,7 +86,6 @@ namespace Lab4Alexey {
                 // has not been visited, then mark it
                 // visited and enqueue it
                 List<int> list = adj[s];
-
                 foreach (var val in list) {
                     if (!visited[val]) {
                         visited[val] = true;
